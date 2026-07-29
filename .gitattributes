@@ -1,1 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Force GitHub to recognize Logos files as Objective-C
 *.x linguist-language=Objective-C
