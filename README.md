@@ -10,7 +10,7 @@ ChatGBeFree intercepts this API response and rewrites "status" to "supported", m
 
 ## Compatible Versions
 
-HBOMaxBypass has been tested with the last app version that supports iOS 16.2. Simply install the latest version of the ChatGPT app that is supported for your device.
+ChatGBeFree has been tested with the last app version that supports iOS 16.2. Simply install the latest version of the ChatGPT app that is supported for your device.
 
 The tweak should work with any older version of the app that can launch on your iOS version but is blocked by the force upgrade screen.
 
