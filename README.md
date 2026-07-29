@@ -36,11 +36,9 @@ The `.deb` will be in the `packages/` directory. The default build targets **roo
 
 ## Technical Details
 
-The tweak hooks two things:
+The tweak hooks one thing:
 
 1. **`NSBundle infoDictionary`** — Returns spoofed `CFBundleShortVersionString` (`1.2099.999`) and `CFBundleVersion` (`99999999999`) for the `com.openai.chat` bundle, tricking the app into reporting a future build to the server.
-
-2. **`NSURLSession dataTaskWithRequest:completionHandler:`** — Intercepts network responses from `openai.com` and `chatgpt.com`. When the response contains `"status":"hard_deprecation"` or `"status":"soft_deprecation"`, it uses a regex to replace the value with `"status":"supported"` before the app processes it.
 
 ## Requirements
 
