@@ -1,0 +1,9 @@
+Package: com.liam.chatgbefree
+Name: ChatGBeFree
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Bypass the forced 'sunset' upgrade screen in the ChatGPT app.
+Maintainer: Liam
+Author: Liam
+Section: Tweaks
+Depends: mobilesubstrate
