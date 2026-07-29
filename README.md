@@ -6,7 +6,7 @@ A jailbreak tweak to bypass the forced upgrade screen "This version of ChatGPT h
 
 When ChatGPT launches, it sends its current app version to OpenAI's backend. The response contains a status field — if the app version is too old, the server replies with hard_deprecation, which locks the app behind a "This version of ChatGPT has been sunset" screen.
 
-ChatGBeFree intercepts this API response and rewrites "status" to "supported", meaning the sunset screen will never trigger. It also hooks NSBundle to spoof CFBundleShortVersionString and CFBundleVersion to a future build (1.2099.999), preventing the deprecation flag from being returned by the server in the first place.
+ChatGBeFree hooks NSBundle to spoof CFBundleShortVersionString and CFBundleVersion to a future build (1.2099.999). This tricks the server into keeping the legacy endpoints active and prevents the deprecation flag from being returned in the first place.
 
 ## Compatible Versions
 
