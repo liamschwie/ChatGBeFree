@@ -1,8 +1,8 @@
 Package: com.liam.chatgbefree
 Name: ChatGBeFree
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Description: Bypass the forced 'sunset' upgrade screen in the ChatGPT app.
+Version: 2.4.0
+Architecture: iphoneos-arm
+Description: Restore ChatGPT on legacy iOS with UIKit-enforced single-screen realtime voice, persistent current models, reliable text copying, and native generated-image loading.
 Maintainer: Liam
 Author: Liam
 Section: Tweaks
